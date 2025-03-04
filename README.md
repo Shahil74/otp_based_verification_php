@@ -1,18 +1,26 @@
-# CodeIgniter 4 Framework
+# Twilio OTP Authentication in CodeIgniter 4
 
-## What is CodeIgniter?
+This project implements **OTP-based authentication** using **Twilio Verify API** in a CodeIgniter 4 application.  
+Users can request an OTP via SMS and verify it for authentication.
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+---
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+## 🚀 Features
+- Send OTP to a phone number via Twilio
+- Verify OTP for authentication
+- Uses **Twilio Verify API**
+- Supports **E.164 phone number format**
+- REST API implementation
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+---
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+## 🛠️ Installation Steps
+
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/Shahil74/otp_based_verification_php.git
+cd otp_based_verification_php
+
 
 ## Important Change with index.php
 
